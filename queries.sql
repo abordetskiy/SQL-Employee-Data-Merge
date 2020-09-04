@@ -56,11 +56,11 @@ FROM employees as e
 GROUP BY e.last_name
 ORDER BY COUNT(e.last_name) DESC;
 
-SELECT * FROM employee_view
-SELECT * FROM employee_after_1986
-SELECT * FROM manager_view
-SELECT * FROM department_view
-SELECT * FROM hercules_view
-SELECT * FROM sales_view
-SELECT * FROM sales_development_view
-SELECT * FROM last_name_frequency_view
+SELECT * FROM employee_view;
+SELECT * FROM employee_after_1986;
+SELECT * FROM manager_view;
+SELECT * FROM department_view;
+SELECT * FROM hercules_view;
+SELECT * FROM sales_view;
+SELECT * FROM sales_development_view;
+SELECT * FROM last_name_frequency_view;
