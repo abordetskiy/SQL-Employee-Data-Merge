@@ -35,7 +35,7 @@ CREATE TABLE dept_manager(
 	dept_no VARCHAR(4) NOT NULL,
 	emp_no INTEGER NOT NULL,
 	PRIMARY KEY(dept_no,emp_no)
-);
+);sq
 --table of salaries
 CREATE TABLE salaries(
 	emp_no INTEGER NOT NULL,
